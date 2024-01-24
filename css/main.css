@@ -1,0 +1,566 @@
+* {
+    margin: 0px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    width: 99vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(rgb(78, 78, 153), rgb(39, 39, 110), rgb(39, 39, 110) 95%);
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0;
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: radial-gradient(rgb(136, 162, 187), rgb(105, 138, 172), rgb(40, 40, 63) 95%);
+
+    }
+}
+a{
+    color: lightblue;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: lightblue; 
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: lightblue;
+}
+/* hier begint nav */
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+}
+
+.nav-container {
+    width: 95%;
+    height: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-image: linear-gradient( to right, #141449e0, #2725acf5 );
+    border-radius: 0px 0px 75px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-container {
+        width: 95vw;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: #10102A;
+        border-radius: 0px 0px 25px 25px;
+    }
+}
+
+.logo-container {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-items: left;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    background-color: #10102A;
+    border-radius: 145px 145px 145px 145px;
+}
+
+.nav-text-container {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 10%;
+}
+
+.nav-text {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #DEDCD5;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+/* hier begint de main */
+main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 120px;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+}
+
+.intro-main-container {
+    display: flex;
+    width: 90%;
+    height: 350px;
+    flex-direction: column;
+    color: rgb(211, 231, 238);
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.intro-main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: left;
+    align-items: center;
+}
+
+.intro-main-text {
+    display: flex;
+    width: 100%;
+    height: 90%;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.intro-main-text1 {
+    display: flex;
+    width: 90%;
+    height: 30%;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: left;
+}
+
+.intro-main-text2 {
+    display: flex;
+    width: 90%;
+    height: 30%;
+    align-items: center;
+    justify-content: left;
+}
+.intro-main-text3{
+    display: flex;
+    width: 90%;
+    height: 30%;
+    align-items: center;
+    justify-content: left;
+    font-size: 3rem ;
+}
+
+.main-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    background-color: #0b1755c5;
+    margin-top: 75px;
+    font-size: 1.3rem;
+    font-family: 'Rethink Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #ebebeb;
+}
+   .main-title{
+    display: flex;
+    font-size: 2rem;
+    width: 50%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+} 
+.main-text{
+    display: flex;
+    width: 30%;
+    height: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+/* hier begint hobby's */
+.hobby-container{
+    display: flex;
+    width: 95%;
+    height: 1000px;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 250px;
+}
+.hobby-title{
+    display: flex;
+    width: 80%;
+    height: 10%;
+    font-size: 1.8rem;
+    justify-content: baseline;
+
+}
+.photos-container{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.basic-fit-container{
+    display: flex;
+    width: 40%;
+    height: 40%;
+    flex-wrap: wrap;
+}
+.basic-fit{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.basic-fit-text{
+    display: flex;
+    width: 90%;
+    height: auto;
+    background-image: linear-gradient(to right, #2670b4, #266fb400 );
+    border-radius: 0px 0px 0px 8px;
+    font-size: 1.1rem;
+}
+.gow-ragnarok-container{
+    display: flex;
+    width: 50%;
+    height: 40%;
+    flex-wrap: wrap;
+}
+.gow-ragnarok{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.gow-ragnarok-text{
+    display: flex;
+    width: 90%;
+    height: auto;
+    background-image: linear-gradient(to right, #2670b4, #266fb400 );
+    border-radius: 0px 0px 0px 8px;
+    font-size: 1.1rem;
+}
+.jujutsu-kaisen-container{
+    display: flex;
+    width: 40%;
+    height: 50%;
+    flex-wrap: wrap;
+}
+.jujutsu-kaisen{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.jujutsu-kaisen-text{
+    display: flex;
+    width: 90%;
+    height: auto;
+    background-image: linear-gradient(to right, #2670b4, #266fb400 );
+    border-radius: 0px 0px 0px 8px;
+    font-size: 1.1rem;
+}
+.boxing-container{
+    display: flex;
+    width: 50%;
+    height: 30%;
+    flex-wrap: wrap;
+}
+.boxing{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.boxing-text{
+    display: flex;
+    width: 90%;
+    height: auto;
+    background-image: linear-gradient(to right, #2670b4, #266fb400 );
+    border-radius: 0px 0px 0px 8px;
+    font-size: 1.1rem;
+}
+/* hier begint vaardigheden */
+.vaardigheden-container {
+    display: flex;
+    width: 90%;
+    height: 1200px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    font-family: 'Rethink Sans', sans-serif;
+}
+
+.vaardigheid-text {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 2rem;
+}
+
+.vaardigheid-html {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 20%;
+    border-radius: 0px 50px 0px 50px;
+    background-image: linear-gradient(to right, #2670b4, #266fb400 );
+    color: #ebebeb;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.html-text-container {
+    display: flex;
+    width: 90%;
+    height: 20%;
+    flex-direction: column;
+}
+
+.html-title {
+    display: flex;
+    font-size: 1.5rem;
+    color: #293ea7;
+    padding: 3%;
+    height: 60%;
+    flex-direction: column;
+}
+.html-text{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    color: white;
+}
+
+.vaardigheid-css {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 20%;
+    border-radius: 0px 50px 0px 50px;
+    background-image: linear-gradient(to right, #2670b4, #266fb400 );
+    color: #ebebeb;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.css-text-container {
+    display: flex;
+    width: 90%;
+    height: 20%;
+    flex-direction: column;
+}
+
+.css-title {
+    display: flex;
+    font-size: 1.5rem;
+    color: #293ea7;
+    padding: 3%;
+    height: 60%;
+    flex-direction: column;
+}
+.css-text{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    color: white;
+}
+
+.vaardigheid-java {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 20%;
+    border-radius: 0px 50px 0px 50px;
+    background-image: linear-gradient(to right, #2670b4, #266fb400 );
+    color: #ebebeb;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.java-text-container {
+    display: flex;
+    width: 90%;
+    height: 20%;
+    flex-direction: column;
+}
+
+.java-title {
+    display: flex;
+    font-size: 1.5rem;
+    color: #293ea7;
+    padding: 3%;
+    height: 60%;
+    flex-direction: column;
+}
+.java-text{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    color: white;
+}
+.vaardigheid-ict {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20%;
+    border-radius: 0px 50px 0px 50px;
+    background-image: linear-gradient(to right, #2670b4, #266fb400 );
+    color: #ebebeb;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.ict-text-container {
+    display: flex;
+    width: 90%;
+    height: 20%;
+    flex-direction: column;
+}
+
+.ict-title {
+    display: flex;
+    font-size: 1.5rem;
+    color: #d15f43;
+    padding: 2%;
+    height: 60%;
+    flex-direction: column;
+}
+.ict-text{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    color: white;
+}
+
+.main-container-contact {
+    display: flex;
+    width: 95%;
+    height: 500px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rethink Sans', sans-serif;
+}
+
+.main-contact {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.main-contact-title{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+}
+.contact-transparent-box {
+    display: flex;
+    width: 35%;
+    height: 85%;
+    border-color: #DEDCD5;
+    border-width: 0px 0px 10px 0px;
+    border-style: solid;
+    border-radius: 0px 0px 40px 40px;
+    align-items: center;
+}
+
+.contact-transparent-box2 {
+    display: flex;
+    width: 35%;
+    height: 85%;
+    border-color: #DEDCD5;
+    border-width: 0px 0px 10px 0px;
+    border-style: solid;
+    border-radius: 0px 0px 40px 40px;
+    align-items: center;
+
+}
+
+.main-container3 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.main-service {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(17, 24, 65);
+}
+
+/* hier begint de footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+}
+
+.footer-container {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #10102aa8;
+    border-radius: 75px 75px 0px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-container {
+        width: 90vw;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: #10102A;
+        border-radius: 25px 25px 0px 0px;
+
+    }
+}
