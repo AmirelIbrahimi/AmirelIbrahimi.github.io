@@ -533,7 +533,7 @@ main {
 /* hier begint de footer */
 footer {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     flex-direction: row;
     width: 100%;
@@ -547,8 +547,8 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    background-color: #10102aa8;
-    border-radius: 75px 75px 0px 0px;
+    background-image: linear-gradient( to right, #141449e0, #2725acf5 );
+    border-radius: 0px 75px 0px 0px;
 }
 
 @media only screen and (max-width: 600px) {
