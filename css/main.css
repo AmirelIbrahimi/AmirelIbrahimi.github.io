@@ -209,12 +209,13 @@ main {
 .hobby-container{
     display: flex;
     width: 95%;
-    height: 1000px;
+    height: 1200px;
     flex-direction: row;
     justify-content: left;
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 250px;
+    margin-top: 250px;
 }
 .hobby-title{
     display: flex;
@@ -236,78 +237,82 @@ main {
 .basic-fit-container{
     display: flex;
     width: 40%;
-    height: 40%;
-    flex-wrap: wrap;
+    height: 50%;
+    flex-direction: column;
 }
 .basic-fit{
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 80%;
+    border-radius: 0px 25px 25px 0px;
 }
 .basic-fit-text{
     display: flex;
     width: 90%;
-    height: auto;
+    height: 10%;
     background-image: linear-gradient(to right, #2670b4, #266fb400 );
     border-radius: 0px 0px 0px 8px;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 .gow-ragnarok-container{
     display: flex;
     width: 50%;
-    height: 40%;
-    flex-wrap: wrap;
+    height: 50%;
+    flex-direction: column;
 }
 .gow-ragnarok{
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 80%;
+    border-radius: 0px 25px 25px 0px;
 }
 .gow-ragnarok-text{
     display: flex;
     width: 90%;
-    height: auto;
+    height: 10%;
     background-image: linear-gradient(to right, #2670b4, #266fb400 );
     border-radius: 0px 0px 0px 8px;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 .jujutsu-kaisen-container{
     display: flex;
     width: 40%;
     height: 50%;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 .jujutsu-kaisen{
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 80%;
+    border-radius: 0px 25px 25px 0px;
 }
 .jujutsu-kaisen-text{
     display: flex;
     width: 90%;
-    height: auto;
+    height: 10%;
     background-image: linear-gradient(to right, #2670b4, #266fb400 );
     border-radius: 0px 0px 0px 8px;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 .boxing-container{
     display: flex;
     width: 50%;
-    height: 30%;
-    flex-wrap: wrap;
+    height: 50%;
+    flex-direction: column;
 }
 .boxing{
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 80%;
+    border-radius: 0px 25px 25px 0px;
 }
 .boxing-text{
     display: flex;
     width: 90%;
-    height: auto;
+    height: 15%;
     background-image: linear-gradient(to right, #2670b4, #266fb400 );
     border-radius: 0px 0px 0px 8px;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 /* hier begint vaardigheden */
 .vaardigheden-container {
@@ -473,6 +478,8 @@ main {
     align-items: center;
     justify-content: center;
     font-family: 'Rethink Sans', sans-serif;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 .main-contact {
@@ -577,7 +584,51 @@ footer {
     background-image: linear-gradient( to right, #141449e0, #2725acf5 );
     border-radius: 0px 75px 0px 0px;
 }
+.instagram-container{
+    display: flex;
+    width: 40%;
+    height: auto;
+    justify-content: right;
+    align-items: center;
+    flex-direction: column;
 
+}
+.instagram-text{
+    display: flex;
+    width: 40%;
+    height: 20%;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: space-around;
+}
+.instagram-img-container{
+    display: flex;
+    width: 90px;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+}
+.instagram-img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer-text-container{
+    display: flex;
+    width: 70%;
+    height: 20%;
+}
+.footer-text{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+
+
+}
 @media only screen and (max-width: 600px) {
     .footer-container {
         width: 90vw;
