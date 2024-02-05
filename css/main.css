@@ -18,14 +18,13 @@ body {
 @media only screen and (max-width: 600px) {
     body {
         margin: 0;
-        width: 100vw;
+        width: 99vw;
         height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background: radial-gradient(rgb(136, 162, 187), rgb(105, 138, 172), rgb(40, 40, 63) 95%);
-
+        background: radial-gradient(rgb(78, 78, 153), rgb(39, 39, 110), rgb(39, 39, 110) 95%);
     }
 }
 a{
@@ -63,14 +62,14 @@ nav {
 
 @media only screen and (max-width: 600px) {
     .nav-container {
-        width: 95vw;
-        height: 100px;
+        width: 90%;
+        height: 225px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        background-color: #10102A;
-        border-radius: 0px 0px 25px 25px;
+        background-image: linear-gradient( to right, #141449e0, #2725acf5 );
+        border-radius: 0px 0px 75px 0px;
     }
 }
 
@@ -80,6 +79,16 @@ nav {
     display: flex;
     justify-items: left;
     align-items: center;
+}
+@media only screen and (max-width: 600px) {
+    .logo-container {
+        width: 30%;
+        height: 80%;
+        display: flex;
+        justify-items: left;
+        align-items: center;
+        visibility: hidden;
+    }
 }
 
 .nav-logo {
@@ -98,7 +107,16 @@ nav {
     justify-content: left;
     margin-left: 10%;
 }
-
+@media only screen and (max-width: 600px) {
+    .nav-text-container {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 10%;
+    }
+}
 .nav-text {
     width: 40%;
     height: 100%;
@@ -109,7 +127,18 @@ nav {
     text-decoration: none;
     text-decoration-line: none;
 }
-
+@media screen and (max-width: 600px) {
+    .nav-text {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: #DEDCD5;
+        text-decoration: none;
+        text-decoration-line: none;
+    }
+}
 /* hier begint de main */
 main {
     display: flex;
@@ -133,7 +162,18 @@ main {
     margin-top: 50px;
     margin-bottom: 200px;
 }
-
+@media screen and (max-width:600px) {
+    .intro-main-container {
+        display: flex;
+        width: 90%;
+        height: 450px;
+        flex-direction: column;
+        color: rgb(211, 231, 238);
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 50px;
+        margin-bottom: 200px;
+    }
+}
 .intro-main {
     display: flex;
     width: 100%;
@@ -190,6 +230,22 @@ main {
     flex-wrap: wrap;
     color: #ebebeb;
 }
+@media screen and (max-width:600px) {
+    .main-text-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 500px;
+        background-color: #0b1755c5;
+        margin-top: 75px;
+        font-size: 1.3rem;
+        font-family: 'Rethink Sans', sans-serif;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        color: #ebebeb;
+    }
+}
    .main-title{
     display: flex;
     font-size: 2rem;
@@ -198,12 +254,31 @@ main {
     justify-content: center;
     align-items: center;
 } 
+@media screen and (max-width: 600px) {
+    .main-title{
+        display: flex;
+        font-size: 2rem;
+        width: 50%;
+        height: 20%;
+        justify-content: center;
+        align-items: center;
+    } 
+}
 .main-text{
     display: flex;
     width: 30%;
     height: 60%;
     justify-content: space-between;
     align-items: center;
+}
+@media screen and (max-width: 600px) {
+    .main-text{
+        display: flex;
+        width: 60%;
+        height: 60%;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 /* hier begint hobby's */
 .hobby-container{
@@ -216,6 +291,19 @@ main {
     flex-wrap: wrap;
     margin-bottom: 250px;
     margin-top: 250px;
+}
+@media screen and (max-width: 600px) {
+    .hobby-container{
+        display: flex;
+        width: 95%;
+        height: 2000px;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 150px;
+        margin-top: 150px;
+    }
 }
 .hobby-title{
     display: flex;
@@ -246,6 +334,14 @@ main {
     height: 80%;
     border-radius: 0px 25px 25px 0px;
 }
+@media screen and (max-width: 600px) {
+    .basic-fit{
+        display: flex;
+        width: 100%;
+        height: 40%;
+        border-radius: 0px 25px 25px 0px;
+    }
+}
 .basic-fit-text{
     display: flex;
     width: 90%;
@@ -253,6 +349,16 @@ main {
     background-image: linear-gradient(to right, #2670b4, #266fb400 );
     border-radius: 0px 0px 0px 8px;
     font-size: 1.5rem;
+}
+@media screen and (max-width: 600px) {
+    .basic-fit-text{
+        display: flex;
+        width: 90%;
+        height: 15%;
+        background-image: linear-gradient(to right, #2670b4, #266fb400 );
+        border-radius: 0px 0px 0px 8px;
+        font-size: 1.5rem;
+    }
 }
 .gow-ragnarok-container{
     display: flex;
@@ -266,6 +372,14 @@ main {
     height: 80%;
     border-radius: 0px 25px 25px 0px;
 }
+@media screen and (max-width: 600px) {
+    .gow-ragnarok{
+        display: flex;
+        width: 100%;
+        height: 40%;
+        border-radius: 0px 25px 25px 0px;
+    }
+}
 .gow-ragnarok-text{
     display: flex;
     width: 90%;
@@ -273,6 +387,16 @@ main {
     background-image: linear-gradient(to right, #2670b4, #266fb400 );
     border-radius: 0px 0px 0px 8px;
     font-size: 1.5rem;
+}
+@media screen and (max-width: 600px) {
+    .gow-ragnarok-text{
+        display: flex;
+        width: 90%;
+        height: 18%;
+        background-image: linear-gradient(to right, #2670b4, #266fb400 );
+        border-radius: 0px 0px 0px 8px;
+        font-size: 1.5rem;
+    }
 }
 .jujutsu-kaisen-container{
     display: flex;
@@ -286,6 +410,14 @@ main {
     height: 80%;
     border-radius: 0px 25px 25px 0px;
 }
+@media screen and (max-width: 600px){
+    .jujutsu-kaisen{
+        display: flex;
+        width: 100%;
+        height: 40%;
+        border-radius: 0px 25px 25px 0px;
+    }
+}
 .jujutsu-kaisen-text{
     display: flex;
     width: 90%;
@@ -293,6 +425,16 @@ main {
     background-image: linear-gradient(to right, #2670b4, #266fb400 );
     border-radius: 0px 0px 0px 8px;
     font-size: 1.5rem;
+}
+@media screen and (max-width: 600px){
+    .jujutsu-kaisen-text{
+        display: flex;
+        width: 90%;
+        height: 18%;
+        background-image: linear-gradient(to right, #2670b4, #266fb400 );
+        border-radius: 0px 0px 0px 8px;
+        font-size: 1.5rem;
+    }
 }
 .boxing-container{
     display: flex;
@@ -306,6 +448,14 @@ main {
     height: 80%;
     border-radius: 0px 25px 25px 0px;
 }
+@media screen and (max-width: 600px){
+    .boxing{
+        display: flex;
+        width: 100%;
+        height: 40%;
+        border-radius: 0px 25px 25px 0px;
+    }
+}
 .boxing-text{
     display: flex;
     width: 90%;
@@ -313,6 +463,16 @@ main {
     background-image: linear-gradient(to right, #2670b4, #266fb400 );
     border-radius: 0px 0px 0px 8px;
     font-size: 1.5rem;
+}
+@media screen and (max-width: 600px){
+    .boxing-text{
+        display: flex;
+        width: 90%;
+        height: 23%;
+        background-image: linear-gradient(to right, #2670b4, #266fb400 );
+        border-radius: 0px 0px 0px 8px;
+        font-size: 1.5rem;
+    }
 }
 /* hier begint vaardigheden */
 .vaardigheden-container {
@@ -368,7 +528,14 @@ main {
     height: 100%;
     color: white;
 }
-
+@media screen and (max-width: 600px){
+    .html-text{
+        display: flex;
+        width: 90%;
+        height: 100%;
+        color: white;
+    }
+}
 .vaardigheid-css {
     display: flex;
     flex-direction: column;
@@ -402,7 +569,14 @@ main {
     height: 100%;
     color: white;
 }
-
+@media screen and (max-width: 600px){
+    .css-text{
+        display: flex;
+        width: 90%;
+        height: 100%;
+        color: white;
+    }
+}
 .vaardigheid-java {
     display: flex;
     flex-direction: column;
@@ -435,6 +609,14 @@ main {
     width: 70%;
     height: 100%;
     color: white;
+}
+@media screen and (max-width: 600px){
+    .java-text{
+        display: flex;
+        width: 90%;
+        height: 100%;
+        color: white;
+    }
 }
 .vaardigheid-ict {
     display: flex;
@@ -469,6 +651,14 @@ main {
     height: 100%;
     color: white;
 }
+@media screen and (max-width: 600px){
+    .ict-text{
+        display: flex;
+        width: 80%;
+        height: 100%;
+        color: white;
+    }
+}
 /* hier begint contact */
 .main-container-contact {
     display: flex;
@@ -481,7 +671,19 @@ main {
     margin-top: 200px;
     margin-bottom: 200px;
 }
-
+@media screen and (max-width: 600px){
+    .main-container-contact {
+        display: flex;
+        width: 95%;
+        height: 1000px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Rethink Sans', sans-serif;
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+}
 .main-contact {
     display: flex;
     width: 80%;
@@ -489,6 +691,16 @@ main {
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+@media screen and (max-width: 600px){
+    .main-contact {
+        display: flex;
+        width: 80%;
+        height: 80%;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+    }
 }
 .main-contact-title{
     display: flex;
@@ -509,7 +721,19 @@ main {
     font-size: 2rem;
     flex-direction: row;
 }
-
+@media screen and (max-width: 600px){
+    .contact-container {
+        display: flex;
+        width: 95%;
+        height: 25%;
+        background-image: linear-gradient( to right, #141449e0, #2725acf5 );
+        border-radius: 0px 0px 40px 40px;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        flex-direction: row;
+    }
+}
 .google-container{
     display: flex;
     width: 20%;
@@ -533,6 +757,19 @@ main {
     justify-content: center;
     font-size: 2rem;
     flex-direction: row;
+}
+@media screen and (max-width: 600px){
+    .contact-container2 {
+        display: flex;
+        width: 95%;
+        height: 25%;
+        background-image: linear-gradient( to right, #141449e0, #2725acf5 );
+        border-radius: 0px 0px 40px 40px;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        flex-direction: row;
+    }
 }
 .linkedin-container{
     display: flex;
@@ -608,6 +845,15 @@ footer {
     align-items: center;
     justify-content: center;
 }
+@media screen and (max-width: 600px){
+    .instagram-img-container{
+        display: flex;
+        width: 40px;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+}
 .instagram-img{
     display: flex;
     width: 100%;
@@ -631,14 +877,13 @@ footer {
 }
 @media only screen and (max-width: 600px) {
     .footer-container {
-        width: 90vw;
-        height: 100px;
+        width: 90%;
+        height: 225px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        background-color: #10102A;
-        border-radius: 25px 25px 0px 0px;
-
+        background-image: linear-gradient( to right, #141449e0, #2725acf5 );
+        border-radius: 0px 75px 0px 0px;
     }
 }
